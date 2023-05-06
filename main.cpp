@@ -34,16 +34,8 @@ void test_forwardlist(){
     // iterators
     cout<<"Elementos - iterators: ";
     ForwardList<int>::iterator ptr = elementos.begin();
-    cout<<"Inicio: "<<*ptr<<endl;
-
+    cout<<*ptr<<endl;
     ForwardList<int>::iterator ptr2 = ++ptr;
- 
-    /* // Funciona
-    for (int i=0;i<3;i++){
-        cout<<*ptr2<<endl;
-        ++ptr2;
-    }
-    */    
 
     for(;ptr2!=elementos.end(); ++ptr2){
         cout<<*ptr2<<endl;//12,10,15
@@ -95,8 +87,6 @@ void test_circularlist(){
         cout<<*ptr2<<endl;//10,15,20,5
     }
     
-    
-    
 }
 
 
@@ -105,6 +95,6 @@ int main()
     test_simplearray();
     test_forwardlist();
     test_circulararray();
-    //test_circularlist();
+    test_circularlist();
     return 0;
 }
