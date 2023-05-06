@@ -18,7 +18,7 @@ void test_simplearray(){
 
 
 void test_forwardlist(){
-    cout<<"\n\nCircular Array: ";
+    cout<<"\n\nForward List: ";
     ForwardList<int> elementos;
     elementos.push_front(15);
     elementos.push_front(10);
@@ -45,7 +45,7 @@ void test_forwardlist(){
 
 
 void test_circulararray(){
-
+    cout<<"\n\nCircular Array: ";
     CircularArray<int> elementos(5);
     elementos.push_front(15);
     elementos.push_front(10);
@@ -68,7 +68,7 @@ void test_circulararray(){
 
 
 void test_circularlist(){
-
+    cout<<"\n\nCircular List: ";
     CircularList<int> elementos;
     elementos.push_front(15);
     elementos.push_front(10);
