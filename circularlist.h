@@ -144,5 +144,4 @@ class CircularList{ // con sentinela
 
     ~CircularList(){
     }
-
 };    

@@ -61,14 +61,6 @@ void test_circulararray(){
     elementos.push_back(20);
     elementos.push_back(5);
 
-    /*  // Para el resize
-    elementos.push_back(15);
-    elementos.push_back(10);
-    elementos.push_back(12);
-    elementos.push_back(20);
-    elementos.push_back(5);
-    elementos.push_back(20);
-    */
     elementos.display();
     //cout<<"Array[3]: "<<elementos[3]; - sobrecarga de []
     

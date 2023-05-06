@@ -1,6 +1,6 @@
 template <class T>
 class IteratorVector{ // clase que simule el comportamiento de un iterator 
-    int indice;
+    int indice; 
     T* array;
 
     public:
